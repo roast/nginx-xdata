@@ -1,0 +1,6 @@
+ngx_addon_name=ngx_http_xdata_module
+HTTP_MODULES="$HTTP_MODULES ngx_http_xdata_up_module"
+HTTP_FILTER_MODULES="$HTTP_FILTER_MODULES ngx_http_xdata_down_module"
+NGX_ADDON_SRCS="$NGX_ADDON_SRCS $ngx_addon_dir/ngx_http_xdata_up_module.c $ngx_addon_dir/ngx_http_xdata_down_module.c"
+
+
