@@ -26,3 +26,5 @@ Enables or disables the keyword filter module.
 syntax: xdata_word_file path 
 context: http, server, location
 The xdata_word_file directive sets the path of the keyword file. 
+
+
