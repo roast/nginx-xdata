@@ -1,10 +1,10 @@
-h2.  Introduction
+Introduction
 
 nginx-xdata is a keyword filter module for nginx.
 
-h2.  Install / Configure
 
-Download source:
+Install / Configure
+
 $ git clone git://github.com/roast/nginx-xdata.git
 $ wget 'http://sysoev.ru/nginx/nginx-0.7.65.tar.gz'
 $ tar -xzvf nginx-0.7.65.tar.gz
@@ -13,7 +13,8 @@ $ ./configure --add-module=/absolute/path/to/the/nginx-xdata/
 $ make
 $ make install
 
-h2.  Directives 
+
+Directives 
 
 *xdata*
 syntax: xdata[ on|off ]
