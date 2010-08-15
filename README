@@ -3,7 +3,7 @@ Introduction
 nginx-xdata is a keyword filter module for nginx.
 
 
-Install / Configure
+Install
 
 $ git clone git://github.com/roast/nginx-xdata.git
 $ wget 'http://sysoev.ru/nginx/nginx-0.7.65.tar.gz'
