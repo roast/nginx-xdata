@@ -1,0 +1,27 @@
+h2.  Introduction
+
+nginx-xdata is a keyword filter module for nginx.
+
+h2.  Install / Configure
+
+Download source:
+$ git clone git://github.com/roast/nginx-xdata.git
+$ wget 'http://sysoev.ru/nginx/nginx-0.7.65.tar.gz'
+$ tar -xzvf nginx-0.7.65.tar.gz
+$ cd nginx-0.0.7.65/
+$ ./configure --add-module=/absolute/path/to/the/nginx-xdata/
+$ make
+$ make install
+
+h2.  Directives 
+
+*xdata*
+syntax: xdata[ on|off ]
+default: xdata off
+context: http, server, location
+Enables or disables the keyword filter module. 
+
+*xdata_word_file*
+syntax: xdata_word_file path 
+context: http, server, location
+The xdata_word_file directive sets the path of the keyword file. 
